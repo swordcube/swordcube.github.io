@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Mitochondria';
+    src: url("./fonts/Mitochondria.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #afc1fb;
+}
+
+p {
+    color: white;
+    font-family: 'Mitochondria';
+    text-shadow:
+        #000 -4px -4px 0px, /* top left */
+        #000 0px -4px 0px, /* top middle */
+        #000 4px -4px 0px, /* top right */
+
+        #000 -4px 0px 0px, /* left middle */
+        #000 4px 0px 0px, /* right middle */
+
+        #000 -4px 4px 0px, /* bottom left */
+        #000 0px 4px 0px, /* bottom middle */
+        #000 4px 4px 0px; /* bottom right */
+}
+
+h1 {
+    background-color: #afc1fb;
+    color: white;
+    font-family: 'Mitochondria';
+    text-shadow:
+        #000 -5px -5px 0px, /* top left */
+        #000 0px -5px 0px, /* top middle */
+        #000 5px -5px 0px, /* top right */
+
+        #000 -5px 0px 0px, /* left middle */
+        #000 5px 0px 0px, /* right middle */
+
+        #000 -5px 5px 0px, /* bottom left */
+        #000 0px 5px 0px, /* bottom middle */
+        #000 5px 5px 0px; /* bottom right */
+}
